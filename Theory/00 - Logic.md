@@ -4,34 +4,27 @@ either **TRUE** or **FALSE** (truth values)
 
 --- 
 
-## Preliminary Concepts
-
-### Truth Values
-True or False
-
-### Variables
-
-### Logical Connectives
-
-### Quantifiers 
-
-### Statements or Propositions
+## Statements or Propositions
 > A statement (or proposition) is a sentence that is true or false but not both.
 
-Statements can be classified by:
-* Complexity 
-  * Simple
-  * Compound
-* Truth values they can take (only True, only False, sometimes both ...)
-* The presence of conditionals
-* The presence of quantifiers
+### Propositional Variables
+> Variable used to indicate a proposition
 
-### Statement Forms or Propositional Forms
+---
+
+## Logical Connectives
+
+
+
+---
+## Statement Forms or Propositional Forms
 > A statement form (or propositional form) is an expression made up of statement
 > variables (such as p, q, and r) and logical connectives (such as $\thicksim$, $\wedge$, and $\vee$) that
 > becomes a statement when actual statements are substituted for the component statement
 > variables. The truth table for a given statement form displays the truth values
 > that correspond to all possible combinations of truth values for its component statement variables.
+
+---
 
 #### Logically Equivalent Statements
 > Two statements are called logically equivalent if, and only if, they have logically
