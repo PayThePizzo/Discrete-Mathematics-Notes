@@ -1,6 +1,6 @@
 # Discrete-Mathematics-Notes
 
-Notes and labs from the [CT0628 - Discrete Structures](https://www.unive.it/data/course/493937) Course at Ca' Foscari University for the year 2023/2024, by Professor [Stefano Calzavara](https://www.unive.it/data/persone/5591843).
+Notes and labs from the [CT0628 - Discrete Structures 2023/2024](https://www.unive.it/data/course/493937) Course at Ca' Foscari University for the year 2023/2024, by Professor [Stefano Calzavara](https://www.unive.it/data/persone/5591843).
 
 --- 
 
@@ -28,6 +28,8 @@ Repo/
 
 ```
 
+[Cheatsheet](https://htmlpreview.github.io/?)
+
 ---
 
 ## Resources and Citations
@@ -37,7 +39,7 @@ Everything can be found inside
 The official textbook for this course is: [Epp, Susanna](https://condor.depaul.edu/~sepp/). [ETextbook: Discrete Mathematics With Applications, Metric Edition. Fifth Edition](https://condor.depaul.edu/~sepp/DM5e.htm), USA, © 2020, 2011, 2004 Cengage Learning, Inc., 2020.
 
 ### Slides
-I used some slides from the previous course [Discrete Mathematics]() by Professor
+I used some slides from the previous course [CT0434 - Discrete Mathematics 2022/2023](https://www.unive.it/data/insegnamento/379940) by Professor [Sabrina Rossi](https://www.unive.it/data/persone/5590334)
 
 ### Useful websites
 Shoutout to 2 crazy helpful Latex-related resources:

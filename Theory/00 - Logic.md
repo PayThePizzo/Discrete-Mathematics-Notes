@@ -4,12 +4,49 @@ either **TRUE** or **FALSE** (truth values)
 
 --- 
 
-## Statements or Propositions
+## Preliminary Concepts
+
+### Truth Values
+True or False
+
+### Variables
+
+### Logical Connectives
+
+### Quantifiers 
+
+### Statements or Propositions
 > A statement (or proposition) is a sentence that is true or false but not both.
+
+Statements can be classified by:
+* Complexity 
+  * Simple
+  * Compound
+* Truth values they can take (only True, only False, sometimes both ...)
+* The presence of conditionals
+* The presence of quantifiers
+
+### Statement Forms or Propositional Forms
+> A statement form (or propositional form) is an expression made up of statement
+> variables (such as p, q, and r) and logical connectives (such as $\thicksim$, $\wedge$, and $\vee$) that
+> becomes a statement when actual statements are substituted for the component statement
+> variables. The truth table for a given statement form displays the truth values
+> that correspond to all possible combinations of truth values for its component statement variables.
+
+#### Logically Equivalent Statements
+> Two statements are called logically equivalent if, and only if, they have logically
+> equivalent forms when identical component statement variables are used to
+> replace identical component statements.
+
+#### Logically Equivalent Statement Forms
+> Two statement forms are called logically equivalent if, and only if, they have identical
+> truth values for each possible substitution of statements for their statement
+> variables. The logical equivalence of statement forms $P$ and $Q$ is denoted by writing $P \equiv Q$.
+
 
 --- 
 
-## Logical Connectors 
+## Logical Connectives and Logical Equivalences
 
 | **Priority** | **Symbol**            | **Name**      | **Known As**    |
 |--------------|-----------------------|---------------|-----------------|
@@ -66,11 +103,6 @@ either **TRUE** or **FALSE** (truth values)
 ---
 
 ## Compound Statements - Logical Connectors
-> A statement form (or propositional form) is an expression made up of statement
-> variables (such as p, q, and r) and logical connectives (such as $\thicksim$, $\wedge$, and $\vee$) that
-> becomes a statement when actual statements are substituted for the component statement
-> variables. The truth table for a given statement form displays the truth values
-> that correspond to all possible combinations of truth values for its component statement variables.
 
 ### Conditional Statements
 
@@ -92,9 +124,9 @@ either **TRUE** or **FALSE** (truth values)
 
 ## Compound Statements - Logical Connectors and Quantifiers
 
-
-
 ---
+
+
 #### Referencese
 * [Epp, Susanna](https://condor.depaul.edu/~sepp/). [ETextbook: Discrete Mathematics With Applications, Metric Edition. Fifth Edition](https://condor.depaul.edu/~sepp/DM5e.htm), USA, © 2020, 2011, 2004 Cengage Learning, Inc., 2020.
   * Chapter 1: Speaking Mathematically
