@@ -28,7 +28,7 @@ Repo/
 
 ```
 
-[Cheatsheet](https://htmlpreview.github.io/?)
+[Cheatsheet](https://htmlpreview.github.io/?https://github.com/PayThePizzo/Discrete-Mathematics-Notes/blob/main/Cheatsheet.html)
 
 ---
 
