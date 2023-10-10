@@ -4,7 +4,7 @@ Notes and labs from the [CT0628 - Discrete Structures](https://www.unive.it/data
 
 All the credits go to the professor Stefano Calzavara, the creators and owners of the resources used in this course.
 
----
+<br>
 
 ## Visualize the notes!
 * Coming soon
