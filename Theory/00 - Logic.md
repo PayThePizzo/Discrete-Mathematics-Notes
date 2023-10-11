@@ -17,6 +17,8 @@ When we demonstrate a statement, we express a judgement under the form of a trut
 Mathematical objects can be of any type such as integer numbers, real numbers, 
 matrices, sequences, sets, functions, ...
 
+<br>
+
 ## Statements or Propositions
 > A statement (or proposition) is a sentence (usually expressed through natural language) 
 > that is true or false but not both.
@@ -60,9 +62,7 @@ Usually indicated as $x, y, \ldots$
 
 Usually indicated as $p, q, r, t$ (tautologies) $, c$ (contradictions) $, \ldots$
 
-### Truth Tables
-> The truth table for a given statement form displays the truth values
-> that correspond to all possible combinations of truth values for its component statement variables
+<br>
 
 ## Statement Forms or Propositional Forms
 > A statement form (or propositional form) is an expression made up of statement/propositional variables and logical connectives that becomes a statement when actual statements are substituted for the component statement variables. 
