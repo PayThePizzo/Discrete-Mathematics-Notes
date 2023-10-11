@@ -5,40 +5,29 @@ either **TRUE** or **FALSE** (truth values)
 --- 
 
 ## Variable
-> A variable is a mathematical object used as a placeholder
+> A variable is placeholder for any kind of object
 
 Usually indicated as $x, y, \ldots$
 
-### Propositional Variables
-> Variable used to indicate a proposition
+### Statement/Propositional Variables
+> A statement/propositional variable is used to indicate a proposition
 
 Usually indicated as $p, q, r, t$ (tautologies) $, c$ (contradictions) $, \ldots$
-
----
 
 ## Statements or Propositions
 > A statement (or proposition) is a sentence that is true or false but not both.
 
 ### Statement Forms or Propositional Forms
-> A statement form (or propositional form) is an expression made up of statement
-> variables (such as p, q, and r) and logical connectives (such as $\thicksim$, $\wedge$, and $\vee$) that
-> becomes a statement when actual statements are substituted for the component statement
-> variables. The truth table for a given statement form displays the truth values
+> A statement form (or propositional form) is an expression made up of statement/propositional
+> variables and logical connectives that becomes a statement when actual statements are 
+> substituted for the component statement variables. 
+
+## Truth Tables
+> The truth table for a given statement form displays the truth values
 > that correspond to all possible combinations of truth values for its component statement variables.
 
 ---
 
-## Logical Connectives and Logical Equivalence
-
-
-
-
-
----
-
-## Compound Statements - Logical Connectors
-
-### Conditional Statements
 
 
 ---
