@@ -6,14 +6,13 @@
 
 Summary of most used logical connectives
 
-| **Priority** | **Name**      | **Known As**   | **Symbol**                | **Logically Equivalent to**                          |
-|--------------|---------------|----------------|---------------------------|------------------------------------------------------|
-| _1_          | Negation      | NOT            | $\urcorner p$ or $\sim p$ |                                                      |
-| _2_          | Conjunction   | AND            | $p \wedge q$              |                                                      |
-| _3_          | Disjunction   | OR (Inclusive) | $p \vee q$                |                                                      |
-| _4_          | Conditional   | IF..THEN..     | $p \Rightarrow q$         | $ ( \sim p) \vee q $ and $ (\sim q ) \Rightarrow p $ |
-| _5_          | Biconditional | IF AND ONLY IF | $p \Longleftrightarrow q$ | $ (p \Rightarrow q) \wedge (q \Rightarrow p) $       |
-
+| **Priority** | **Name**      | **Known As**   | **Symbol**                | **Logically Equivalent to**                     |
+|--------------|---------------|----------------|---------------------------|-------------------------------------------------|
+| _1_          | Negation      | NOT            | $\urcorner p$ or $\sim p$ |                                                 |
+| _2_          | Conjunction   | AND            | $p \wedge q$              |                                                 |
+| _3_          | Disjunction   | OR (Inclusive) | $p \vee q$                |                                                 |
+| _4_          | Conditional   | IF..THEN..     | $p \Rightarrow q$         | $(\sim p) \vee q$ and $(\sim q ) \Rightarrow p$ |
+| _5_          | Biconditional | IF AND ONLY IF | $p \Longleftrightarrow q$ | $(p \Rightarrow q) \wedge (q \Rightarrow p)$    |
 
 ### NOT
 > If $p$ is a statement variable, the negation of $p$ is “not $p$” or “It is not the case that $p$”
