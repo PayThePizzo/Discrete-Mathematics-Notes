@@ -51,8 +51,15 @@ Summary of most used logical connectives
 |  F  |  F  |      F     |
 
 
-### IF THEN
+### XOR 
 
+### IF THEN
+> If $p$ and $q$ are statement variables, the conditional of q by p is “If p then q” or “p implies q” and 
+> is denoted $p \Rightarrow q$. It is false when $p$ is true and $q$ is false; otherwise it is true. 
+ 
+We call $p$ the hypothesis (or antecedent) of the conditional and $q$ the conclusion (or consequent).
+
+A conditional statement that is true by virtue of the fact that its hypothesis is false is of- ten called vacuously true or true by default. Thus the statement “If you show up for work Monday morning, then you will get the job” is vacuously true if you do not show up for work Monday morning. In general, when the “if” part of an if-then statement is false, the statement as a whole is said to be true, regardless of whether the conclusion is true or false.
 
 ### IFF
 
@@ -82,3 +89,14 @@ Table for Theorem 2.1.1
 2. Check each combination of truth values of the statement variables to see whether the truth value of P is the same as the truth value of Q.
    1. If in each row the truth value of P is the same as the truth value of Q, then P and Q are logically equivalent.
    2. If in some row P has a different truth value from Q, then P and Q are not logically equivalent.
+
+
+---
+
+### Tautology
+> A tautology is a statement form that is always true regardless of the truth values of the individual statements substituted for its
+> statement variables. A statement whose form is a tautology is a tautological statement.
+
+### Contradiction
+> A contradiction is a statement form that is always false regardless of the truth values of the individual statements substituted
+> for its statement variables. A state- ment whose form is a contradiction is a contradictory statement.
