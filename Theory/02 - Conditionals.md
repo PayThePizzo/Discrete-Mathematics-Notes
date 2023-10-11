@@ -23,15 +23,41 @@ A conditional statement that is true by virtue of the fact that its hypothesis i
 * Thus the statement “If you show up for work  Monday morning, then you will get the job” is vacuously true if you do not show up for work Monday morning. 
 * In general, **when the “if” part of an if-then statement is false, the statement as a whole is said to be true, regardless of whether the conclusion is true or false**.
 
-### Representation through OR - IF THEN becomes Either OR
+#### Representation through OR - IF THEN becomes Either OR
 We can convert statements of the king "Either $\sim p$ or $q$ in If-Then statements easily:
 
 ```math
 p \Rightarrow q \equiv (\sim p) \vee q
 ```
 
-
-### Negation of a conditional statement - IF THEN using AND
+#### Negation of a conditional statement - IF THEN using AND
 The negation of “if p then q” is logically equivalent to “p and not q.”: 
 
-$\sim(p \Rightarrow q) \equiv p \wedge (\sim q)$
+```math
+\sim(p \Rightarrow q) \equiv p \wedge (\sim q)
+```
+
+<br>
+
+## Contrapositive
+The contrapositive of a conditional statement of the form "if $p$ then $q$" is "if $\sim q$ then $\sim p$"
+
+```math
+\text{The contrapositive of } p \Rightarrow q \text{ is } \sim q \Rightarrow \sim p
+```
+
+> A conditional statement is logically equivalent to its contrapositive.
+
+## Converse
+The converse of a conditional statement of the form "if $p$ then $q$" is "if $q$ then $p$"
+
+```math
+\text{The contrapositive of } p \Rightarrow q \text{ is } q \Rightarrow p
+```
+
+## Inverse
+The inverse of a conditional statement of the form "if $p$ then $q$" is "if $\sim p$ then $\sim q$"
+
+```math
+\text{The contrapositive of } p \Rightarrow q \text{ is } \sim p \Rightarrow \sim q
+```
