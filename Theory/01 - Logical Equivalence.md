@@ -1,7 +1,5 @@
 # Logical Equivalence
 
----
-
 ## Logically Equivalent Statements
 Two statements are called logically equivalent if, and only if, they have logically
 equivalent forms when identical component statement variables are used to
@@ -74,8 +72,6 @@ only when both $p$ and $q$ are false.
 From these basic "building blocks" we can create new logical connectives (such as XOR, Implication, Double Implication, ...) and even
 create Compound statements and Compound statement forms.
 
-<br>
-
 #### XOR (Exclusive OR) - Extra
 Note that when or is used in its exclusive sense, the statement “p or q” means “p or q but not both” or “p or q and
 not both p and q,” which translates into symbols as $(p \vee q) \wedge \sim (p \wedge q)$
@@ -88,6 +84,8 @@ Then we can use $p XOR q$, $p \bigoplus q$, $(p \vee q) \wedge \sim (p \wedge q)
 | T   | F   | T          | F            | T                   | **T**                                 |
 | F   | T   | T          | F            | T                   | **T**                                 |
 | F   | F   | F          | F            | T                   | **F**                                 |
+
+---
 
 <br>
 
