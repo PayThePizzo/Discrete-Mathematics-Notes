@@ -6,27 +6,36 @@ Notes and labs from the [CT0628 - Discrete Structures 2023/2024](https://www.uni
 
 ## Course Diary
 
+The course diary follows the official textbook's chapters:
+
+| **Topic**                                | **Section**     | **Exercises**             |
+|------------------------------------------|-----------------|---------------------------|
+| _Basic Concepts_                         | 1.1             |                           |
+| _Basic Concepts_                         | 1.2             | 1, 3, 8, 9, 11            |
+| _Basic Concepts_                         | 1.3             | 1, 7, 10, 15, 19          |
+| _Propositional Logic_                    | 2.1             | 16, 20, 23, 31, 40, 45    |
+| _Propositional Logic_                    | 2.2             | 7, 8, 15, 46, 47          |
+| _Validity and Inference rules_           | 2.3             | 6, 7, 29, 36, 41          |
+| _Predicate Logic pt. 1_                  | 3.1             | 3, 5, 7, 18, 28           |
+| _Predicate Logic pt. 1_                  | 3.2             | 1, 3, 11, 15, 18          |
+| _Predicate Logic pt. 2_                  | 3.3 (no Prolog) | 9, 15, 29, 37, 55, 57     |
+| _Predicate Logic pt. 2_                  | 3.4             | 16, 21, 25, 31            |
+| _Integer and Real Numbers_               | 4.1             | 3, 12, 14, 28             |
+| _Integer and Real Numbers_               | 4.2             | 6, 12, 16, 22, 30, 31     |
+| _Integer and Real Numbers_               | 4.3             | 8, 12, 15, 16, 17, 18, 31 |
+| _Divisibilità e massimo comune divisore_ | 4.4             | 12, 15, 20, 26, 28, 40    |
+| _Divisibilità e massimo comune divisore_ | 4.5             | 17, 20, 28, 31, 37        |
+| _Divisibilità e massimo comune divisore_ | 4.10            | 13, 22                    |
+
 ---
 
 ## Content
 
-```text
-Repo/
-    Theory/
-        0 - Intro.md
-        00 - Logic.md
-        10 - Number Theory.md
-        20 - Induction.md
-        30 - Sets.md
-        40 - Functions.md
-        50 - Relations.md
-        70 - Counting and Probability.md
-        Glossary.md
-    Exercises/
-    Resources/
-    README.md
+This repo contains:
+* Glossary
+* Cheatseet
+* ... 
 
-```
 
 ---
 
@@ -43,7 +52,6 @@ I used some slides from the previous course [CT0434 - Discrete Mathematics 2022/
 Shoutout to 2 crazy helpful Latex-related resources:
 * [Matthias Heinkenschloss - Latex Symbols Pdf](https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf)
 * [CODECOGS - Equation Editor](https://latex.codecogs.com/eqneditor/editor.php)
-
 
 ---
 ### Credits and Warnings
