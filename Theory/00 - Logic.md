@@ -3,6 +3,8 @@ Logic focuses on propositions (or statements)
 
 --- 
 
+<br>
+
 ## Basic Concepts for Statements
 Here are some basic concepts before starting
 
@@ -45,6 +47,8 @@ Statements:
   * User of inference (sufficient/necessary condtions)
 
 ---
+
+<br>
 
 ## Basic Concepts for Statement Forms
 Now we might want to use some kind of placeholder in order to check 
@@ -96,6 +100,8 @@ Statement Forms:
   * Use the Truth Tables!
 
 Once we constructed a statement form we can evaluate it through Truth tables
+
+<br>
 
 ### Truth Tables
 > The truth table for a given statement form displays the truth values
