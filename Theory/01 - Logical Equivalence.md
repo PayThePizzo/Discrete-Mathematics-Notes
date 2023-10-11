@@ -20,6 +20,8 @@ variables. The logical equivalence of statement forms $P$ and $Q$ is denoted by 
 
 ---
 
+<br>
+
 ## Fundamental Logical Connectives
 
 Summary of most used logical connectives by priority 
@@ -29,6 +31,8 @@ Summary of most used logical connectives by priority
 | Negation      | NOT                | "is **not** the case that p", " **not** p" | $\urcorner p$ or $\sim p$ |                                                 
 | Conjunction   | AND                | "p **but** q", "p **and** q"               | $p \wedge q$              |                                                
 | Disjunction   | OR (Inclusive)     | "p **or** q"                               | $p \vee q$                |                                                 
+
+<br>
 
 ### NOT
 If $p$ is a statement variable, the negation of $p$ is **“not p”** or “It is not the case that $p$”
@@ -84,8 +88,6 @@ Then we can use $p XOR q$, $p \bigoplus q$, $(p \vee q) \wedge \sim (p \wedge q)
 | T   | F   | T          | F            | T                   | **T**                                 |
 | F   | T   | T          | F            | T                   | **T**                                 |
 | F   | F   | F          | F            | T                   | **F**                                 |
-
----
 
 <br>
 
