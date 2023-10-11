@@ -60,7 +60,7 @@ Shoutout to 2 crazy helpful Latex-related resources:
 Maintained by [PayThePizzo](https://github.com/PayThePizzo)
 
 #### Warning
-1. I take no credit from any of the material that is included, nor I assure the correctness of my notes since I am not a professor. 
+1. I take no credit from any of the material that is included, nor I assure the correctness of my notes since I am not a professor. This is merely a way to share my personal notes with my fellow students at Ca' Foscari University.
 2. All the material cited is intended for personal use and I highly recommend purchasing the materials I cited. 
 
 #### In case something is wrong
