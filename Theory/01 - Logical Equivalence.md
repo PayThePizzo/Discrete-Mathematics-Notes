@@ -61,6 +61,10 @@ Summary of most used logical connectives
 
 ## Logical Equivalences
 
+Table for Theorem 2.1.1
+
+![Logical Equivalence](../Resources/logicalequivalence.png)
+
 ### Logically Equivalent Statements
 > Two statements are called logically equivalent if, and only if, they have logically
 > equivalent forms when identical component statement variables are used to
@@ -70,3 +74,11 @@ Summary of most used logical connectives
 > Two statement forms are called logically equivalent if, and only if, they have identical
 > truth values for each possible substitution of statements for their statement
 > variables. The logical equivalence of statement forms $P$ and $Q$ is denoted by writing $P \equiv Q$.
+
+
+### Testing Whether Two Statement Forms P and Q Are Logically Equivalent
+
+1. Construct a truth table with one column for the truth values of P and another column for the truth values of Q.
+2. Check each combination of truth values of the statement variables to see whether the truth value of P is the same as the truth value of Q.
+   1. If in each row the truth value of P is the same as the truth value of Q, then P and Q are logically equivalent.
+   2. If in some row P has a different truth value from Q, then P and Q are not logically equivalent.
