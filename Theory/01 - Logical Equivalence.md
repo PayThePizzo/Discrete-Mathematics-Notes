@@ -24,11 +24,11 @@ variables. The logical equivalence of statement forms $P$ and $Q$ is denoted by 
 
 Summary of most used logical connectives by priority 
 
-| **Name**      | **Known As**       | **Language**                               | **Symbol**                | **Logically Equivalent to**                     |
-|---------------|--------------------|--------------------------------------------|---------------------------|-------------------------------------------------|
-| Negation      | NOT                | "is **not** the case that p", " **not** p" | $\urcorner p$ or $\sim p$ |                                                 |
-| Conjunction   | AND                | "p **but** q", "p **and** q"               | $p \wedge q$              |                                                 |
-| Disjunction   | OR (Inclusive)     | "p **or** q"                               | $p \vee q$                |                                                 |
+| **Name**      | **Known As**       | **Language**                               | **Symbol**                |
+|---------------|--------------------|--------------------------------------------|---------------------------|
+| Negation      | NOT                | "is **not** the case that p", " **not** p" | $\urcorner p$ or $\sim p$ |                                                 
+| Conjunction   | AND                | "p **but** q", "p **and** q"               | $p \wedge q$              |                                                
+| Disjunction   | OR (Inclusive)     | "p **or** q"                               | $p \vee q$                |                                                 
 
 ### NOT
 If $p$ is a statement variable, the negation of $p$ is **“not p”** or “It is not the case that $p$”
@@ -70,6 +70,8 @@ only when both $p$ and $q$ are false.
 From these basic "building blocks" we can create new logical connectives (such as XOR, Implication, Double Implication, ...) and even
 create Compound statements and Compound statement forms.
 
+<br>
+
 #### XOR (Exclusive OR) - Extra
 Note that when or is used in its exclusive sense, the statement “p or q” means “p or q but not both” or “p or q and
 not both p and q,” which translates into symbols as $(p \vee q) \wedge \sim (p \wedge q)$
@@ -84,6 +86,8 @@ Then we can use $p XOR q$, $p \bigoplus q$, $(p \vee q) \wedge \sim (p \wedge q)
 | F   | F   | F          | F            | T                   | **F**                                 |
 
 ---
+
+<br>
 
 ## Summary of Logical Equivalences
 
