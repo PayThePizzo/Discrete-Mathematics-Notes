@@ -9,6 +9,7 @@ Arguments
 	Arguments and Argument Forms - Definition
 	Validity of Arguments - Definition
 	Infer Validity of Arguments - Truth Tables
+	Validity and Truth
 	Rules of Inference
 		Syllogism
 			Modus Ponens (or Deduction)
@@ -75,6 +76,28 @@ or deduced from the truth of the premises.
 Attention: If at least one premise of an argument is false, then we have no information about the 
 conclusion: It might be true or it might be false!
 
+## Validity and Truth - Attention!
+In logic, the words true and valid have very different meanings. A valid argument may have a false conclusion, and an invalid argument may have a true conclusion.
+
+Sometimes people lump together the ideas of validity and truth. If an argument seems
+valid, they accept the conclusion as true. And if an argument seems fishy (really a slang
+expression for invalid), they think the conclusion must be false. This is not correct!
+
+## Soundness of an Argument
+> An argument is called sound if, and only if, it is valid and all its premises are true.
+> An argument that is not sound is called unsound.
+
+The important thing to note is that validity is a property of argument forms: If an argument is valid, 
+then so is every other argument that has the same form. Similarly, if an argument is invalid, then so is every other argument that has the same form. 
+
+What characterizes a valid argument is that no argument whose form is valid can have all true premises and a false
+conclusion.  For each valid argument, there are arguments of that form with all true premises and a true conclusion, 
+with at least one false premise and a true conclusion, and with at least one false premise and a false conclusion. On the other hand, for each invalid argument, there are arguments of that form with every combination of truth values for the premises and
+conclusion, including all true premises and a false conclusion. 
+
+The bottom line is that we can only be sure that the conclusion of an argument is true when we know that the argument 
+is sound, that is, when we know both that the argument is valid and that it has all true premises.
+
 --- 
 
 <br>
@@ -86,7 +109,7 @@ Valid Argument Forms:
 
 ![Rules of Inference](../Resources/InferenceRules.png)
 
-## 1 - Syllogisms
+### 1 - Syllogisms
 > An argument form consisting of two premises and a conclusion is called a syllogism.
 > The first and second premises are called the **major premise** and **minor premise**, respectively.
 
@@ -151,8 +174,6 @@ means junior or senior, you add Anton to your list.
 \end{align*}
 ```
 
-
-
 ### 3 - Specialization
 These argument forms are used for specializing. When classifying objects according to
 some property, you often know much more about them than whether they do or do not have
@@ -205,7 +226,6 @@ one out, the other must be the case.
 \end{align*}
 ```
 
-
 ### 5 - Transitivity 
 Many arguments in mathematics contain chains of if-then statements to provide proof/demonstration for theorems. 
 
@@ -213,6 +233,7 @@ From the fact that one statement implies a second and the second implies a third
 first statement implies the third (and so on).
 
 In fact, it is very common to face something like: 
+
 ```math
 \begin{align*}
 	p_{0} \Rightarrow p_{1} \Rightarrow p_{2} \Rightarrow \ldots \Rightarrow p_{n}
@@ -227,6 +248,23 @@ It often happens that you know one thing or another is true. If you can show tha
 a certain conclusion follows, then this conclusion must also be true.
 
 This means, sometimes you must take all the possible cases and demonstrate them separately.
+
+
+### 7 - Contradiction
+Suppose $p$ is some statement whose truth you wish to deduce.
+If **you can show** that the supposition that statement $p$ is false leads logically to a
+contradiction, then **you can conclude** that $p$ is true.
+
+```math
+\begin{align*}
+	\sim p \Rightarrow \textbf{c} \\
+	\therefore p
+\end{align*}
+```
+
+The contradiction rule is the logical heart of the method of proof by contradiction. 
+A slight variation also provides the basis for solving many logical puzzles by eliminating contradictory answers: 
+**If an assumption leads to a contradiction, then that assumption must be false.**
 
 ---
 
@@ -286,7 +324,13 @@ default and the second premise is also true but the conclusion is false
 
 
 ### Inverse Error
+The fallacy underlying this invalid argument form is called the inverse error because
+the conclusion of the argument would follow from the premises if the premise $p \Rightarrow q$ were
+replaced by its inverse. 
 
+Such a replacement is not allowed, however, because a **conditional
+statement is not logically equivalent to its inverse**. Inverse error is also known as the *fallacy
+of denying the antecedent*.
 
 ```math
 \begin{align*}
@@ -297,3 +341,17 @@ default and the second premise is also true but the conclusion is false
 ```
 
 #### Inverse Error Example
+
+```math
+\begin{align*}
+	\text{ If these two vertices are adjacent, then they do not have the same color. } \\ 
+	\text{ These two vertices are not adjacent. } \\
+	\therefore \text{ These two vertices have the same color. }
+\end{align*}
+```
+
+---
+
+<br>
+
+## 
