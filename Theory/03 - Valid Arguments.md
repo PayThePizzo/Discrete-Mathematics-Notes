@@ -114,7 +114,7 @@ It is a type of syllogism which implies reasoning of the form "if $p$ is true an
 \begin{align*}
   \text{if } p \text{ then } q \\
   \sim q \\ 
-  \therefore \sim p
+  \therefore \text{ } \sim p
 \end{align*}
 ```
 
@@ -215,7 +215,7 @@ first statement implies the third (and so on).
 In fact, it is very common to face something like: 
 ```math
 \begin{align*}
-	p_{0} \Rightarrow p_{1} \Rightarrow p_{2} \Rightarrow \ldots p_{n}
+	p_{0} \Rightarrow p_{1} \Rightarrow p_{2} \Rightarrow \ldots \Rightarrow p_{n}
 \end{align*}
 ```
 
@@ -287,4 +287,13 @@ default and the second premise is also true but the conclusion is false
 
 ### Inverse Error
 
-###
+
+```math
+\begin{align*}
+  p \Rightarrow q \\ 
+  \sim q \\
+  \therefore \text{ } \sim p 
+\end{align*}
+```
+
+#### Inverse Error Example
