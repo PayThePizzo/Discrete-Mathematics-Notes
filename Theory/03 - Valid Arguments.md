@@ -12,11 +12,11 @@ We can divide them in two parts
   * The symbol $\therefore$, which is read “therefore,” is normally placed just before the conclusion.
 
 ```math
-\text{if p then q}
-\\
-p
-\\
-\therefore q
+\begin{align*}
+  \text{if } p \text{ then } q \\
+  p \\ 
+  \therefore q
+\end{align*}
 ```
 
 
