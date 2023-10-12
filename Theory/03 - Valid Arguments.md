@@ -5,13 +5,22 @@ statements
 Table of Contents - Arguments
 
 ```text
-Arguments/
+Arguments
 	Arguments and Argument Forms - Definition
-	Validity of Arguments
+	Validity of Arguments - Definition
 	Infer Validity of Arguments - Truth Tables
-	Type of Arguments
+	Rules of Inference
 		Syllogism
 			Modus Ponens (or Deduction)
+			Modus Tollens
+		Generalization
+		Specialization
+		Elimination
+		Transitivity 
+		Division into cases
+	Fallacies - Definition 
+		Convers Error
+		Inverse Error
 
 ```
 
@@ -81,11 +90,6 @@ Valid Argument Forms:
 > An argument form consisting of two premises and a conclusion is called a syllogism.
 > The first and second premises are called the **major premise** and **minor premise**, respectively.
 
-Chains of arguments are often used to provide proof/demonstration for theorems. 
-In fact, it is very common to face something like: $p_{0} \Rightarrow p_{1} \Rightarrow p_{2} \Rightarrow \ldots p_{n}$
-where $p_{0}$ is usually called "postulate" or "axiom", which is argument that is considered true although no 
-demonstration has been provided.
-
 Two types of syllogism that are widely used are: Modus Ponens and Modus Tollens.
 
 #### Deduction or Modus Ponens 
@@ -122,11 +126,32 @@ These argument forms are used for making generalizations. For instance, accordin
 the first, if p is true, then, more generally, “p or q” is true for any other statement q.
 
 ```math
-p \\
-\therefore p \vee q
+\begin{align*}
+  p \\ 
+  \therefore p \vee q
+\end{align*}
 ```
 
-Example:
+```math
+\begin{align*}
+  q \\ 
+  \therefore p \vee q
+\end{align*}
+```
+
+<details>
+	<summary>Genaralization Example</summary>
+	As an example, suppose you are given the job of counting the upperclassmen at your school. You
+	ask what class Anton is in and are told he is a junior. You reason as follows: Knowing that upperclassman 
+	means junior or senior, you add Anton to your list. 
+
+	```math
+	\begin{align*}
+	\text{Anton is a junior} \\ 
+	\therefore \text{ (more generally) Anton is a junior or Anton is a senior}
+	\end{align*}
+	```
+</details>
 
 
 ### 3 - Specialization
@@ -135,9 +160,137 @@ some property, you often know much more about them than whether they do or do no
 that property. When this happens, you discard extraneous information as you concentrate
 on the particular property of interest.
 
-Example: 
+```math
+\begin{align*}
+  p \wedge q \\ 
+  \therefore p 
+\end{align*}
+```
+
+```math
+\begin{align*}
+  p \wedge q \\ 
+  \therefore q
+\end{align*}
+```
+
+<details>
+	<summary>Specialization Example</summary>
+	For instance, suppose you are looking for a person who knows graph algorithms to work
+	with you on a project. You discover that Ana knows both numerical analysis and graph
+	algorithms. You reason as follows: Accordingly, you invite her to work with you on your project.
+
+	```math
+	\begin{align*}
+	\text{Ana knows numerical analysis and Ana knows graph algorithms} \\ 
+	\therefore \text{ (in particular) Ana knows graph algorithms}
+	\end{align*}
+	```
+</details>
 
 ### 4 - Elimination
+These argument forms say that when you have only two possibilities and you can rule
+one out, the other must be the case.
+
+```math
+\begin{align*}
+  p \vee q \\ 
+  \sim q \\
+  \therefore p
+\end{align*}
+```
+
+```math
+\begin{align*}
+  p \vee q \\ 
+  \sim p \\
+  \therefore q
+\end{align*}
+```
 
 
 ### 5 - Transitivity 
+Many arguments in mathematics contain chains of if-then statements to provide proof/demonstration for theorems. 
+
+From the fact that one statement implies a second and the second implies a third, you can conclude that the
+first statement implies the third (and so on).
+
+In fact, it is very common to face something like: 
+```math
+\begin{align*}
+	p_{0} \Rightarrow p_{1} \Rightarrow p_{2} \Rightarrow \ldots p_{n}
+\end{align*}
+```
+
+where $p_{0}$ is usually called "postulate" or "axiom", which is argument that is considered true although no 
+demonstration has been provided.
+
+### 6 -  Proof by Division into Cases
+It often happens that you know one thing or another is true. If you can show that in either case
+a certain conclusion follows, then this conclusion must also be true.
+
+This means, sometimes you must take all the possible cases and demonstrate them separately.
+
+---
+
+<br>
+
+## Fallacies
+> A fallacy is an error in reasoning that results in an invalid argument.
+
+Three common fallacies are:
+1. **Using Ambiguous Premises**, and treating them as if they were unambiguous;
+2. **Circular Reasoning**, assuming what is to be proved without having derived it from the premises; 
+3. And **Jumping to a conclusion** (without adequate grounds).
+
+In this section we discuss two other fallacies, **called converse error and inverse error**, which give rise to
+arguments that superficially resemble those that are valid by modus ponens and modus tollens but are not, in fact, valid.
+
+As in previous examples, you can show that an argument is invalid by: 
+1. Constructing a truth table for the argument form and finding at least one critical row in which all the premises are true but the conclusion is false. 
+2. Another way is to find an argument of **the same form with true premises and a false conclusion**.
+
+> For an argument to be valid, every argument of the same form whose premises are all true must have a true conclusion. 
+> It follows that for an argument to be invalid means that there is an argument of that form whose premises are all 
+> true and whose conclusion is false.
+
+
+### Converse Error
+The fallacy underlying this invalid argument form is called the converse error because
+the conclusion of the argument would follow from the premises if the premise $p \Rightarrow q$ were
+replaced by its converse. 
+
+Such a replacement is not allowed, however, because a conditional statement is not logically equivalent 
+to its converse. Converse error is also known as the *fallacy of affirming the consequent*.
+
+```math
+\begin{align*}
+  p \Rightarrow q \\ 
+  q \\
+  \therefore p 
+\end{align*}
+```
+
+<details>
+	<summary>Converse Error Example</summary>
+	
+	```math
+	\begin{align*}
+	\text{ If Zeke is a cheater, then Zeke sits in the back row. } \\ 
+	\text{ Zeke sits in the back row. } \\
+	\therefore \text{ Zeke is a cheater.}
+	\end{align*}
+	```
+
+The first premise gives information about Zeke if it is known
+he is a cheater. It doesn’t give any information about him if it is not already known that he
+is a cheater. One can certainly imagine a person who is not a cheater but happens to sit in
+the back row. Then if that person’s name is substituted for Zeke, the first premise is true by
+default and the second premise is also true but the conclusion is false
+
+</details>
+
+
+### Inverse Error
+
+###
