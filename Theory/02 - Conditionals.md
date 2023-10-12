@@ -12,12 +12,12 @@ Let $p$ and $q$ be statements. A sentence of the form “**If** $p$ **then** $q$
 If $p$ and $q$ are statement variables, the conditional of $q$ by $p$ is “If $p$ then $q$” or
 “$p$ implies $q$” and is denoted $p \Rightarrow q$. It is false when $p$ is true and $q$ is false; otherwise it is true. We call $p$ the hypothesis
 
-| $p$ | $q$ | $\sim p$ | $p \Rightarrow q$ | $(\sim p) \vee q$ | $(\sim q) \Rightarrow \sim p$ |
-|-----|-----|----------|-------------------|-------------------|-------------------------------|
-| T   | T   | F        | **T**             | **T**             | **T**                         |
-| T   | F   | F        | **F**             | **F**             | **F**                         |
-| F   | T   | T        | **T**             | **T**             | **T**                         |
-| F   | F   | T        | **T**             | **T**             | **T**                         |
+| $p$ | $q$ | $\sim p$ | $p \Rightarrow q$ | $(\sim p) \vee q$ | $\sim(p \wedge (\sim q))$ | $(\sim q) \Rightarrow \sim p$ |
+|-----|-----|----------|-------------------|-------------------|---------------------------|-------------------------------|
+| T   | T   | F        | **T**             | **T**             | **T**                     | **T**                         |
+| T   | F   | F        | **F**             | **F**             | **F**                     | **F**                         |
+| F   | T   | T        | **T**             | **T**             | **T**                     | **T**                         |
+| F   | F   | T        | **T**             | **T**             | **T**                     | **T**                         |
 
 The only combination of circumstances in which you would call a conditional sentence false occurs when the hypothesis is true and the conclusion is false. In all other cases, you would not call the sentence false.
 
@@ -45,8 +45,9 @@ The negation of “if p then q” is logically equivalent to “p and not q.”:
 The contrapositive of a conditional statement of the form "if $p$ then $q$" is "if $\sim q$ then $\sim p$"
 
 ```math
-\text{The contrapositive of } p \Rightarrow q \text{ is } \sim q \Rightarrow \sim p
+\text{The contrapositive of } p \Rightarrow q \text{ is } (\sim q) \Rightarrow \sim p
 ```
+
 
 ## Converse
 The converse of a conditional statement of the form "if $p$ then $q$" is "if $q$ then $p$"
@@ -59,12 +60,18 @@ The converse of a conditional statement of the form "if $p$ then $q$" is "if $q$
 The inverse of a conditional statement of the form "if $p$ then $q$" is "if $\sim p$ then $\sim q$"
 
 ```math
-\text{The contrapositive of } p \Rightarrow q \text{ is } \sim p \Rightarrow \sim q
+\text{The contrapositive of } p \Rightarrow q \text{ is } (\sim p) \Rightarrow \sim q
 ```
 
 ### Logical Equivalences and Contrapositive, Converse, Inverse of a Conditional Statement 
 We must remember that:
-1. A conditional statement is logically equivalent to its contrapositive.
+1. A conditional statement is logically equivalent to its contrapositive: 
+	* $p \Rightarrow q \equiv (\sim p) \vee q$ 
+  	* $(\sim p) \vee q \equiv (\sim p) \vee (\sim ( \sim q ))$ 
+    	* by Double negative laws
+  	* $(\sim ( \sim q )) \vee (\sim p) \equiv (\sim q) \Rightarrow \sim p$ 
+    	* by Commutative laws
+	* $p \Rightarrow q \equiv (\sim q) \Rightarrow \sim p$ 
 2. A conditional statement and its converse are not logically equivalent.
 3. A conditional statement and its inverse are not logically equivalent.
 4. The converse and the inverse of a conditional statement are logically equivalent to each other.
