@@ -86,13 +86,13 @@ Valid Argument Forms:
 
 ![Rules of Inference](../Resources/InferenceRules.png)
 
-### 1 - Syllogisms
+## 1 - Syllogisms
 > An argument form consisting of two premises and a conclusion is called a syllogism.
 > The first and second premises are called the **major premise** and **minor premise**, respectively.
 
 Two types of syllogism that are widely used are: Modus Ponens and Modus Tollens.
 
-#### Deduction or Modus Ponens 
+### 1.1 - Deduction or Modus Ponens 
 The term modus ponens is Latin meaning *method of affirming* (the conclusion is an affirmation)
 
 It is a type of syllogism which implies reasoning of the form "if $p$ is true and $p \Rightarrow q$ is true, then $q$ is true"
@@ -105,7 +105,7 @@ It is a type of syllogism which implies reasoning of the form "if $p$ is true an
 \end{align*}
 ```
 
-#### Modus Tollens 
+### 1.2 - Modus Tollens 
 The term modus ponens is Latin meaning *method of denying* (the conclusion is a denial)
 
 It is a type of syllogism which implies reasoning of the form "if $p$ is true and $p \Rightarrow q$ is true, then $q$ is true"
@@ -139,19 +139,18 @@ the first, if p is true, then, more generally, “p or q” is true for any othe
 \end{align*}
 ```
 
-<details>
-	<summary>Genaralization Example</summary>
-	As an example, suppose you are given the job of counting the upperclassmen at your school. You
-	ask what class Anton is in and are told he is a junior. You reason as follows: Knowing that upperclassman 
-	means junior or senior, you add Anton to your list. 
+#### Genaralization Example
+As an example, suppose you are given the job of counting the upperclassmen at your school. You
+ask what class Anton is in and are told he is a junior. You reason as follows: Knowing that upperclassman 
+means junior or senior, you add Anton to your list. 
 
-	```math
-	\begin{align*}
+```math
+\begin{align*}
 	\text{Anton is a junior} \\ 
 	\therefore \text{ (more generally) Anton is a junior or Anton is a senior}
-	\end{align*}
-	```
-</details>
+\end{align*}
+```
+
 
 
 ### 3 - Specialization
@@ -174,19 +173,17 @@ on the particular property of interest.
 \end{align*}
 ```
 
-<details>
-	<summary>Specialization Example</summary>
-	For instance, suppose you are looking for a person who knows graph algorithms to work
-	with you on a project. You discover that Ana knows both numerical analysis and graph
-	algorithms. You reason as follows: Accordingly, you invite her to work with you on your project.
+#### Specialization Example
+For instance, suppose you are looking for a person who knows graph algorithms to work
+with you on a project. You discover that Ana knows both numerical analysis and graph
+algorithms. You reason as follows: Accordingly, you invite her to work with you on your project.
 
-	```math
-	\begin{align*}
+```math
+\begin{align*}
 	\text{Ana knows numerical analysis and Ana knows graph algorithms} \\ 
 	\therefore \text{ (in particular) Ana knows graph algorithms}
-	\end{align*}
-	```
-</details>
+\end{align*}
+```
 
 ### 4 - Elimination
 These argument forms say that when you have only two possibilities and you can rule
@@ -271,24 +268,21 @@ to its converse. Converse error is also known as the *fallacy of affirming the c
 \end{align*}
 ```
 
-<details>
-	<summary>Converse Error Example</summary>
+#### Converse Error Example
 	
-	```math
-	\begin{align*}
+```math
+\begin{align*}
 	\text{ If Zeke is a cheater, then Zeke sits in the back row. } \\ 
 	\text{ Zeke sits in the back row. } \\
 	\therefore \text{ Zeke is a cheater.}
-	\end{align*}
-	```
+\end{align*}
+```
 
 The first premise gives information about Zeke if it is known
 he is a cheater. It doesn’t give any information about him if it is not already known that he
 is a cheater. One can certainly imagine a person who is not a cheater but happens to sit in
 the back row. Then if that person’s name is substituted for Zeke, the first premise is true by
 default and the second premise is also true but the conclusion is false
-
-</details>
 
 
 ### Inverse Error
