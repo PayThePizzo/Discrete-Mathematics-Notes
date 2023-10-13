@@ -174,3 +174,20 @@ The negation of a statement of the form $\exists x \in D \mid P(x)$ is logically
 <br>
 
 ## Vacuous Truth of Universal Statements
+In general, a statement of the form:
+
+```math 
+\begin{align*}
+    \forall x \in D \text{, } P(x) \Rightarrow Q(x)
+\end{align*}
+```
+is called **vacuously true** or true by default if, and only if, $P(x)$ is false for every $x$ in $D$.
+In mathematics, the words in **general** signal that what is to follow is a generalization of
+some aspect of the example that always holds true.
+
+
+
+## Variants of Universal Conditional Statements
+
+
+## Necessary and Sufficient Conditions, Only If
