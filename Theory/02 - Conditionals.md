@@ -83,9 +83,10 @@ q does not take place, then p cannot take place. Another way to say this is that
 occurs, then q must also occur (by the logical equivalence between a statement and its
 contrapositive).
 
-If p and q are statements, $p$ **only if** $q$ means 
+If p and q are statements, $p$ **ONLY IF** $q$ means 
 * “if **not** $q$ then **not** $p$”
 * or, equivalently, “if $p$ then $q$.”
+  * or, again, "ONLY those who satisfy $q$ CAN satisfy $p$"
 
 ## IFF - Biconditional
 Given statement variables $p$ and $q$, the biconditional of $p$ and $q$ is “ $p$ if, and only if,
