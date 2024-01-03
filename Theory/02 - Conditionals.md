@@ -9,8 +9,7 @@ Let $p$ and $q$ be statements. A sentence of the form “**If** $p$ **then** $q$
 ---
 
 ## Implication - IF THEN
-If $p$ and $q$ are statement variables, the conditional of $q$ by $p$ is “If $p$ then $q$” or
-“$p$ implies $q$” and is denoted $p \Rightarrow q$. It is false when $p$ is true and $q$ is false; otherwise it is true. We call $p$ the hypothesis
+If $p$ and $q$ are statement variables, the conditional of $q$ by $p$ is “If $p$ then $q$” or "$p$ implies $q$" and is denoted $p \Rightarrow q$. It is false when $p$ is true and $q$ is false; otherwise it is true. We call $p$ the hypothesis
 
 | $p$ | $q$ | $\sim p$ | $p \Rightarrow q$ | $(\sim p) \vee q$ | $\sim(p \wedge (\sim q))$ | $(\sim q) \Rightarrow \sim p$ |
 |-----|-----|----------|-------------------|-------------------|---------------------------|-------------------------------|
