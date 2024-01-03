@@ -52,14 +52,14 @@ The contrapositive of a conditional statement of the form "if $p$ then $q$" is "
 The converse of a conditional statement of the form "if $p$ then $q$" is "if $q$ then $p$"
 
 ```math
-\text{The contrapositive of } p \Rightarrow q \text{ is } q \Rightarrow p
+\text{The converse of } p \Rightarrow q \text{ is } q \Rightarrow p
 ```
 
 ## Inverse
 The inverse of a conditional statement of the form "if $p$ then $q$" is "if $\sim p$ then $\sim q$"
 
 ```math
-\text{The contrapositive of } p \Rightarrow q \text{ is } (\sim p) \Rightarrow \sim q
+\text{The inverse of } p \Rightarrow q \text{ is } (\sim p) \Rightarrow \sim q
 ```
 
 ### Logical Equivalences and Contrapositive, Converse, Inverse of a Conditional Statement 
@@ -88,7 +88,7 @@ If p and q are statements, $p$ **only if** $q$ means
 * or, equivalently, “if $p$ then $q$.”
 
 ## IFF - Biconditional
-Given statement variables $p$ and $q$, the biconditional of $p$ and $q$ is “$p$ if, and only if,
+Given statement variables $p$ and $q$, the biconditional of $p$ and $q$ is “ $p$ if, and only if,
 $q$” and is denoted $p \Longleftrightarrow q$. 
 
 It is true if both $p$ and $q$ have the same truth values and is
@@ -111,6 +111,6 @@ If $r$ and $s$ are statements for a bidirectional conditional iff $r \Longleftri
 * "r is a **necessary** condition for s" means "if not $r$ then not $s$" which also means "if $s$ then $r$" or $s \Rightarrow r$
   * On the other hand, to say “r is a necessary condition for s” means that if r does not occur, 
   then s cannot occur either: The occurrence of r is necessary to obtain the occurrence of s. 
-* Consequently, "r is a **necessary and sufficient** condition for s" means “$r$ **if, and only if,** $s$.”
+* Consequently, "r is a **necessary and sufficient** condition for s" means “ $r$ **if, and only if,** $s$.”
 
 In order to demonstrate $r \Longleftrightarrow s$ we need to demonstrate both the sufficient and the necessary conditions
